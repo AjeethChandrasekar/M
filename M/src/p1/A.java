@@ -1,9 +1,14 @@
 package p1;
 
+import java.util.Arrays;
+
 public class A {
 public static void main(String[] args) {
-	int a=3;
-	int b=5;
-	System.out.println(a*b);
+	int a[] = {5,2,4,1,3};
+	Arrays.sort(a);
+	for (int i : a) {
+		System.out.println(i);
+		
+	}
 }
 }
